@@ -15,7 +15,7 @@
 
 |screens||
 |:---:|:----:|
-| ![2](https://user-images.githubusercontent.com/54543148/72046100-0dec6e00-32fb-11ea-80cc-60a90bc3949e.jpg) </br> 메인| 
+| ![2](https://user-images.githubusercontent.com/54543148/72046100-0dec6e00-32fb-11ea-80cc-60a90bc3949e.jpg){: width="300" height="300"} </br> 메인| 
 | ![1](https://user-images.githubusercontent.com/54543148/72046116-15137c00-32fb-11ea-8dd8-7424218b2f65.jpg) </br> 시작|
 | ![3](https://user-images.githubusercontent.com/54543148/72046128-1a70c680-32fb-11ea-87ab-36ffc4bb45cf.jpg) </br> 로그인,회원가입|
 | ![4](https://user-images.githubusercontent.com/54543148/72046135-1e9ce400-32fb-11ea-9a91-267cde7f6503.jpg) </br> 인지향상퍼즐|

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/cip_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/cip_title"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/cip_info_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/cip_title_text_view"
+        android:text="@string/cip_info"
+        android:textSize="20dp"
+        />
+
+    <GridLayout
+
+        android:id="@+id/cip_puzzle_layout"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/cip_info_text_view"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:columnCount="5"
+        android:rowCount="5"
+        >
+
+        <Button
+            android:id="@+id/cip_num1_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/sequence_custom_button"
+            />
+
+        <Button
+            android:id="@+id/cip_num2_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:id="@+id/cip_num3_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:id="@+id/cip_num4_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:id="@+id/cip_num5_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="5dp"/>
+
+        <!-- 5*5의 1행-->
+
+        <Button
+            android:id="@+id/cip_num6_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num7_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num8_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num9_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num10_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <!-- 5*5의 2행-->
+
+        <Button
+            android:id="@+id/cip_num11_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num12_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num13_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num14_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num15_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <!-- 5*5의 3행-->
+
+        <Button
+            android:id="@+id/cip_num16_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num17_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num18_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num19_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num20_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <!-- 5*5의 4행-->
+        <Button
+            android:id="@+id/cip_num21_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num22_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num23_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num24_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cip_num25_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <!-- 5*5의 2행-->
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/time_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cip_puzzle_layout"
+        android:layout_marginTop="20dp"
+        android:text="@string/cip_time"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/cip_clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/time_text_view"
+        android:layout_toLeftOf="@id/cip_start_button"
+        android:layout_marginTop="20dp"
+        android:text="초 기 화"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/cip_start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/time_text_view"
+        android:layout_marginTop="20dp"
+        android:text="시 작 하 기"
+        android:textSize="20dp"/>
+
+    <RelativeLayout
+        android:id="@+id/cip_swap_score_layout"
+        android:layout_width="250sp"
+        android:layout_height="400sp"
+        android:layout_centerInParent="true"
+        android:background="@color/scoreBackground"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/cip_swap_score_title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/cip_score_title"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/cip_swap_score_result_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/cip_swap_score_title_text_view"
+            android:text="00"
+            android:textSize="50sp"/>
+
+        <TextView
+            android:id="@+id/cip_swap_score_below_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/cip_swap_score_result_text_view"
+            android:layout_marginTop="20dp"
+            android:text="위의 점수를 흭득하셨습니다"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:id="@+id/cip_next_game_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/cip_swap_score_below_text_view"
+            android:text="다음 게임으로 이동"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

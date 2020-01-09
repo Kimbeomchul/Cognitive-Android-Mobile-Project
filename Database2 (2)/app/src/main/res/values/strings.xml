@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Mobileprog</string>
+
+    <string name="email">이메일</string>
+    <string name="password">비밀번호</string>
+
+    <string name="signin">로그인</string>
+    <string name="success_login">로그인 성공</string>
+    <string name="failed_login">로그인 실패</string>
+
+    <string name="signup">회원가입</string>
+    <string name="success_signup">회원가입 성공</string>
+    <string name="failed_signup">회원가입 실패</string>
+
+    <string name="start_swap_puzzle">인지력\n향상\n퍼즐</string>
+    <string name="start_sequence_puzzle">순서\n맞추기</string>
+    <string name="start_equal_image_puzzle">같은\n그림\n찾기</string>
+
+
+    <string name="cip_main_title">Cognitive power&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\n&#160;&#160;&#160;&#160;&#160;&#160;improvement puzzle\n(CIP)</string>
+
+
+    <string name="cip_swap_title">CIP - 인지력 향상 퍼즐</string>
+    <string name="cip_swap_effect">퍼즐의 효과\n\n - 문제해결능력\n\n - 시각처리\n\n - 인지\n\n - 조직화\n\n - 순서화\n\n - 지속적 집중력\n\n - 선택적 집중력\n\n훈련에 도움이 됩니다.</string>
+    <string name="cip_swap_info">클릭된 이미지들을 바꿔서 퍼즐을 맞추세요.</string>
+    <string name="cip_swap_time">제한시간 : 60초</string>
+
+
+    <string name="cip_title">CIP - 순서 맞추기</string>
+    <string name="cip_sequence_effect">순서 맞추기의 효과\n\n - 순서화\n\n - 조직화\n\n - 기억력\n\n - 지속적 집중력\n\n훈련에 도움이 됩니다.</string>
+    <string name="cip_info">1부터 25까지의 숫자를 보고 \n제한 시간 안에 차례대로 클릭해주세요.</string>
+    <string name="cip_time">제한시간 : 60초</string>
+    <string name="cip_score_title">게임이 종료되었습니다.</string>
+
+</resources>

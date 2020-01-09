@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectGame">
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="@string/cip_main_title"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"/>
+
+    <Button
+        android:id="@+id/start_swap_puzzle_button"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:text="@string/start_swap_puzzle"
+        android:textSize="16sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="40sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+
+        />
+
+    <Button
+        android:id="@+id/start_sequence_puzzle_button"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:text="@string/start_sequence_puzzle"
+        android:textSize="16sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="40sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/start_swap_puzzle_button"/>
+
+    <Button
+        android:id="@+id/start_equal_image_button"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:text="@string/start_equal_image_puzzle"
+        android:textSize="16sp"
+        android:layout_marginBottom="40sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/start_sequence_puzzle_button"/>
+
+    <Button
+        android:id="@+id/toresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_marginBottom="250sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/start_swap_puzzle_button" />
+    <Button
+        android:id="@+id/music_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentRight="true"
+        android:text="Music On/Off"
+        />
+
+
+</RelativeLayout>

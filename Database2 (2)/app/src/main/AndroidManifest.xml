@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.database">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SecondGameActivity1"></activity>
+        <activity android:name=".FirstGameActivity1" />
+        <activity android:name=".ThirdGameActivity6" />
+        <activity android:name=".SecondGameActivity2" />
+        <activity android:name=".FirstGameActivity2" />
+        <activity android:name=".SecondGameActivity5" />
+        <activity android:name=".SecondGameActivity4" />
+        <activity android:name=".SecondGameActivity3" />
+        <activity android:name=".ThirdGameActivity" />
+        <activity android:name=".ThirdGameActivity2" />
+        <activity android:name=".ThirdGameActivity3" />
+        <activity android:name=".ThirdGameActivity4" />
+        <activity android:name=".ThirdGameActivity5" />
+        <activity android:name=".Result1"/>
+        <activity android:name=".Result2"/>
+        <activity android:name=".Result3"/>
+
+        <activity android:name=".MainActivity"/>
+
+            <activity android:name=".ResultMain"/>
+
+                <activity android:name=".SelectGame" />
+
+        <activity android:name=".Profile">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

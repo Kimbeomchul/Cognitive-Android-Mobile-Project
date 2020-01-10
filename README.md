@@ -6,7 +6,8 @@
 
 
 ## Contents
-- 내용 : 
+- 내용 : 인지능력향상퍼즐 게임 1,2,3,4와 Firebase auth를 이용한 로그인 이메일 회원가입 구현, Firebase realtime Database를 이용한 게임 결과값 
+          ,가입자 나이 동적 저장, 게임배경음악 on/off  
 
 ## Test
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/54543148/72045690-185a3800-32fa-11ea-853b-8b74718f7aad.gif)

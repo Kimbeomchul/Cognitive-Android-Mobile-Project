@@ -10,7 +10,7 @@
           ,가입자 나이 동적 저장, 게임배경음악 on/off  
 
 ## Test
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/54543148/72045690-185a3800-32fa-11ea-853b-8b74718f7aad.gif)
+![1](https://user-images.githubusercontent.com/54543148/72339753-36fd6c00-370a-11ea-93b0-6cff5045e6ed.GIF)
 
 ## Sample Screens
 
